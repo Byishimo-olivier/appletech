@@ -32,7 +32,7 @@ export default function LoginPage() {
                     <div className={styles.logoIcon}>
                         <Smartphone size={32} color="white" />
                     </div>
-                    <h1 className={styles.title}>AppleTech PMS</h1>
+                    <h1 className={styles.title}>KAT (Kigali Apple Tech)</h1>
                     <p className={styles.subtitle}>Sign in to your account</p>
                 </div>
 

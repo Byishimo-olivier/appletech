@@ -27,7 +27,7 @@ export default function Sidebar() {
                 <div className={styles.logoIcon}>
                     <Smartphone size={24} color="white" />
                 </div>
-                <span className={styles.logoText}>AppleTech</span>
+                <span className={styles.logoText}>KAT (Kigali Apple Tech)</span>
             </div>
 
             <nav className={styles.nav}>

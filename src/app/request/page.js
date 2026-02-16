@@ -45,7 +45,7 @@ export default function RemoteRequestPage() {
                 <div className={styles.logoIcon}>
                     <Smartphone size={24} color="white" />
                 </div>
-                <span className={styles.logoText}>AppleTech Remote Support</span>
+                <span className={styles.logoText}>KAT (Kigali Apple Tech) Remote Support</span>
             </header>
 
             <main className={styles.main}>

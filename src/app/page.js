@@ -14,7 +14,7 @@ export default function LandingPage() {
           <div className={styles.logoIcon}>
             <Smartphone size={24} color="white" />
           </div>
-          <span className={styles.logoText}>AppleTech</span>
+          <span className={styles.logoText}>KAT (Kigali Apple Tech)</span>
         </div>
         <div className={styles.navLinks}>
           <Link href="/client" className={styles.link}>Already a Customer?</Link>
@@ -32,7 +32,7 @@ export default function LandingPage() {
             <span className={styles.heroHighlight}>Authorized Quality.</span>
           </h1>
           <p className={styles.heroSubtitle}>
-            We bring your devices back to life with genuine parts and certified expertise. 
+            We bring your devices back to life with genuine parts and certified expertise.
             Fast, reliable, and transparent.
           </p>
           <div className={styles.heroActions}>
@@ -46,13 +46,13 @@ export default function LandingPage() {
             </Link>
           </div>
         </div>
-        
+
         {/* Abstract graphical element or image placeholder */}
         <div className={styles.heroVisual}>
           <div className={styles.deviceMockup}>
-             <div className={styles.screenContent}>
-                <Wrench size={64} className={styles.floatingIcon} />
-             </div>
+            <div className={styles.screenContent}>
+              <Wrench size={64} className={styles.floatingIcon} />
+            </div>
           </div>
         </div>
       </section>
@@ -67,14 +67,14 @@ export default function LandingPage() {
           <p>We use only authentic components to ensure your device works exactly as intended.</p>
         </div>
         <div className={styles.featureCard}>
-           <div className={styles.featureIcon}>
+          <div className={styles.featureIcon}>
             <Clock size={32} />
           </div>
           <h3>Fast Turnaround</h3>
           <p>Most repairs are completed within 24 hours. Screen replacements in under 1 hour.</p>
         </div>
         <div className={styles.featureCard}>
-           <div className={styles.featureIcon}>
+          <div className={styles.featureIcon}>
             <Smartphone size={32} />
           </div>
           <h3>All Devices</h3>
@@ -83,7 +83,7 @@ export default function LandingPage() {
       </section>
 
       <footer className={styles.footer}>
-        <p>© 2026 AppleTech Solutions. Kigali, Rwanda.</p>
+        <p>© 2026 KAT (Kigali Apple Tech) Solutions. Kigali, Rwanda.</p>
       </footer>
     </div>
   );

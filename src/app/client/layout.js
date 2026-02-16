@@ -15,7 +15,7 @@ export default function ClientLayout({ children }) {
             <div className={styles.logoIcon}>
               <Smartphone size={24} color="white" />
             </div>
-            <span className={styles.logoText}>AppleTech Client</span>
+            <span className={styles.logoText}>KAT (Kigali Apple Tech) Client</span>
           </Link>
 
           <nav className={styles.nav}>
@@ -40,7 +40,7 @@ export default function ClientLayout({ children }) {
 
       <footer className={styles.footer}>
         <div className={styles.container}>
-          <p>© 2026 AppleTech Repair Services. All rights reserved.</p>
+          <p>© 2026 KAT (Kigali Apple Tech) Repair Services. All rights reserved.</p>
         </div>
       </footer>
     </div>
