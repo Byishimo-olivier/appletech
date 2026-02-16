@@ -3,7 +3,7 @@ import styles from './Layout.module.css';
 import "./globals.css";
 
 export const metadata = {
-  title: "KAT (Kigali Apple Tech) Repair Management",
+  title: "Kigali Apple Tech Repair Management",
   description: "Premium Repair Management System",
 };
 

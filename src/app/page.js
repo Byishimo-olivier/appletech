@@ -14,7 +14,7 @@ export default function LandingPage() {
           <div className={styles.logoIcon}>
             <Smartphone size={24} color="white" />
           </div>
-          <span className={styles.logoText}>KAT (Kigali Apple Tech)</span>
+          <span className={styles.logoText}>Kigali Apple Tech</span>
         </div>
         <div className={styles.navLinks}>
           <Link href="/client" className={styles.link}>Already a Customer?</Link>
@@ -83,7 +83,7 @@ export default function LandingPage() {
       </section>
 
       <footer className={styles.footer}>
-        <p>© 2026 KAT (Kigali Apple Tech) Solutions. Kigali, Rwanda.</p>
+        <p>© 2026 Kigali Apple Tech Solutions. Kigali, Rwanda.</p>
       </footer>
     </div>
   );
