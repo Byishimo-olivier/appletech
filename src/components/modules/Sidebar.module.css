@@ -2,7 +2,7 @@
     width: 260px;
     height: 100vh;
     background-color: var(--system-grouped-background);
-    border-right: 1px solid var(--system-separator);
+    border-inline-end: 1px solid var(--system-separator);
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
