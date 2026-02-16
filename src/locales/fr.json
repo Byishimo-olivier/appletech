@@ -1,0 +1,40 @@
+{
+    "common": {
+        "dashboard": "Tableau de bord",
+        "customers": "Clients",
+        "repairs": "Réparations",
+        "intake": "Réception Appareil",
+        "requests": "Demandes Réparation",
+        "inventory": "Inventaire",
+        "quotations": "Devis",
+        "settings": "Paramètres",
+        "search": "Rechercher...",
+        "save": "Enregistrer",
+        "cancel": "Annuler",
+        "delete": "Supprimer",
+        "edit": "Modifier",
+        "logout": "Déconnexion"
+    },
+    "dashboard": {
+        "title": "Tableau de bord",
+        "welcome": "Bonjour, Admin",
+        "overview": "Voici ce qui se passe aujourd'hui.",
+        "totalRepairs": "Total Réparations",
+        "activeCustomers": "Clients Actifs",
+        "pendingRequests": "Demandes En Attente",
+        "pending_repairs": "Réparations En Attente",
+        "active_repairs": "Réparations Actives",
+        "completed_today": "Terminé Aujourd'hui",
+        "new_customers": "Nouveaux Clients",
+        "recentActivity": "Activité Récente",
+        "recent_activity": "Activité Récente"
+    },
+    "customers": {
+        "title": "Gestion des Clients",
+        "add_new": "Ajouter un Client",
+        "name": "Nom",
+        "phone": "Téléphone",
+        "email": "Email",
+        "devices": "Appareils"
+    }
+}

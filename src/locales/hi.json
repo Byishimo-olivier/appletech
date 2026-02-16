@@ -1,0 +1,40 @@
+{
+    "common": {
+        "dashboard": "डैशबोर्ड",
+        "customers": "ग्राहक",
+        "repairs": "मरम्मत",
+        "intake": "उपकरण प्राप्ति",
+        "requests": "मरम्मत अनुरोध",
+        "inventory": "इन्वेंटरी",
+        "quotations": "कोटेशन",
+        "settings": "सेटिंग्स",
+        "search": "खोजें...",
+        "save": "सहेजें",
+        "cancel": "रद्द करें",
+        "delete": "हटाएं",
+        "edit": "संपादित करें",
+        "logout": "लॉग आउट"
+    },
+    "dashboard": {
+        "title": "डैशबोर्ड",
+        "welcome": "नमस्ते, व्यवस्थापक",
+        "overview": "आज क्या हो रहा है, यह यहाँ है।",
+        "totalRepairs": "कुल मरम्मत",
+        "activeCustomers": "सक्रिय ग्राहक",
+        "pendingRequests": "लंबित अनुरोध",
+        "pending_repairs": "लंबित मरम्मत",
+        "active_repairs": "सक्रिय मरम्मत",
+        "completed_today": "आज पूरा हुआ",
+        "new_customers": "नए ग्राहक",
+        "recentActivity": "हाल की गतिविधि",
+        "recent_activity": "हाल की गतिविधि"
+    },
+    "customers": {
+        "title": "ग्राहक प्रबंधन",
+        "add_new": "ग्राहक जोड़ें",
+        "name": "नाम",
+        "phone": "फ़ोन",
+        "email": "ईमेल",
+        "devices": "उपकरण"
+    }
+}

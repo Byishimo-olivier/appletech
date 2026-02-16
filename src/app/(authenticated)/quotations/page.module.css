@@ -1,0 +1,132 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--system-label-primary);
+}
+
+.subtitle {
+    color: var(--system-label-secondary);
+    font-size: 15px;
+}
+
+.tableCard {
+    padding: 0;
+    overflow: hidden;
+}
+
+.toolbar {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--system-separator);
+}
+
+.searchWrapper {
+    width: 300px;
+    position: relative;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    color: var(--system-label-secondary);
+    z-index: 10;
+}
+
+.searchInput input {
+    padding-left: 36px !important;
+}
+
+.tableWrapper {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    text-align: left;
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--system-separator);
+    background-color: var(--system-gray-6);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--system-label-secondary);
+    text-transform: uppercase;
+}
+
+.table td {
+    padding: 16px 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 15px;
+    color: var(--system-label-primary);
+}
+
+.idCell {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    color: var(--system-blue);
+}
+
+.amount {
+    font-weight: 600;
+}
+
+.statusBadge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.draft {
+    background-color: var(--system-gray-4);
+    color: var(--system-label-primary);
+}
+
+.sent {
+    background-color: var(--system-blue);
+    color: white;
+}
+
+.accepted {
+    background-color: var(--system-green);
+    color: white;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+}
+
+.actionButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--system-label-secondary);
+    padding: 6px;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.actionButton:hover {
+    background-color: var(--system-gray-6);
+    color: var(--system-label-primary);
+}

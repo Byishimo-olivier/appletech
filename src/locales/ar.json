@@ -1,0 +1,40 @@
+{
+    "common": {
+        "dashboard": "لوحة القيادة",
+        "customers": "العملاء",
+        "repairs": "الإصلاحات",
+        "intake": "استلام الجهاز",
+        "requests": "طلبات الإصلاح",
+        "inventory": "المخزون",
+        "quotations": "عروض الأسعار",
+        "settings": "الإعدادات",
+        "search": "بحث...",
+        "save": "حفظ",
+        "cancel": "إلغاء",
+        "delete": "حذف",
+        "edit": "تعديل",
+        "logout": "تسجيل الخروج"
+    },
+    "dashboard": {
+        "title": "لوحة القيادة",
+        "welcome": "مرحباً، المسؤول",
+        "overview": "إليك ما يحدث اليوم.",
+        "totalRepairs": "إجمالي الإصلاحات",
+        "activeCustomers": "العملاء النشطين",
+        "pendingRequests": "الطلبات المعلقة",
+        "pending_repairs": "إصلاحات معلقة",
+        "active_repairs": "إصلاحات جارية",
+        "completed_today": "مكتملة اليوم",
+        "new_customers": "عملاء جدد",
+        "recentActivity": "النشاط الأخير",
+        "recent_activity": "النشاط الأخير"
+    },
+    "customers": {
+        "title": "إدارة العملاء",
+        "add_new": "إضافة عميل",
+        "name": "الاسم",
+        "phone": "الهاتف",
+        "email": "البريد الإلكتروني",
+        "devices": "الأجهزة"
+    }
+}

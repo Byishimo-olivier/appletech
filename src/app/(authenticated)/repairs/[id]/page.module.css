@@ -1,0 +1,243 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.backLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--system-label-secondary);
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.backLink:hover {
+    color: var(--system-blue);
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.statusSelect {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--system-separator);
+    background-color: var(--system-background);
+    color: var(--system-label-primary);
+    font-size: 14px;
+}
+
+.titleRow {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--system-label-primary);
+}
+
+.statusBadge {
+    background-color: var(--system-blue);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.contentGrid {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 24px;
+}
+
+@media (max-width: 900px) {
+    .contentGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.mainColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.tabs {
+    display: flex;
+    gap: 4px;
+    border-bottom: 1px solid var(--system-separator);
+    padding-bottom: 0;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: var(--system-label-secondary);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.tab:hover {
+    color: var(--system-label-primary);
+}
+
+.activeTab {
+    color: var(--system-blue);
+    border-bottom-color: var(--system-blue);
+}
+
+.tabContent {
+    min-height: 400px;
+}
+
+.sectionTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--system-label-primary);
+    margin-bottom: 12px;
+}
+
+.description {
+    font-size: 15px;
+    color: var(--system-label-primary);
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-left: 2px solid var(--system-separator);
+    padding-left: 24px;
+    margin-left: 8px;
+}
+
+.timelineItem {
+    position: relative;
+}
+
+.timelineDot {
+    position: absolute;
+    left: -29px;
+    top: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--system-blue);
+    box-shadow: 0 0 0 4px var(--system-background);
+}
+
+.timelineDate {
+    font-size: 12px;
+    color: var(--system-label-tertiary);
+    margin-bottom: 4px;
+    display: block;
+}
+
+.timelineMsg {
+    font-size: 14px;
+    color: var(--system-label-secondary);
+}
+
+.formSection {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.checklist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.checkItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--system-label-secondary);
+    cursor: pointer;
+}
+
+.addPartBtn {
+    align-self: flex-start;
+}
+
+.sideColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.infoCard {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cardTitle {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--system-label-primary);
+    border-bottom: 1px solid var(--system-separator);
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+}
+
+.infoRow {
+    display: flex;
+    gap: 12px;
+}
+
+.infoIcon {
+    color: var(--system-label-secondary);
+    margin-top: 2px;
+}
+
+.infoLabel {
+    font-size: 12px;
+    color: var(--system-label-secondary);
+    display: block;
+    margin-bottom: 2px;
+}
+
+.infoValue {
+    font-size: 14px;
+    color: var(--system-label-primary);
+    font-weight: 500;
+}
+
+.contactBtn {
+    width: 100%;
+}

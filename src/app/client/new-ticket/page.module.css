@@ -1,0 +1,134 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.backLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--system-label-secondary);
+    font-size: 14px;
+    margin-bottom: 16px;
+    transition: color 0.2s;
+}
+
+.backLink:hover {
+    color: var(--system-blue);
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--system-label-primary);
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+    gap: 12px;
+}
+
+.step {
+    font-size: 14px;
+    color: var(--system-label-tertiary);
+    font-weight: 600;
+}
+
+.activeStep {
+    color: var(--system-blue);
+}
+
+.line {
+    width: 40px;
+    height: 2px;
+    background-color: var(--system-separator);
+}
+
+.stepContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.stepTitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--system-label-primary);
+    margin-bottom: 4px;
+}
+
+.description {
+    font-size: 15px;
+    color: var(--system-label-secondary);
+    line-height: 1.4;
+}
+
+.paymentMethods {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.method {
+    flex: 1;
+    border: 2px solid var(--system-blue);
+    background-color: rgba(0, 113, 227, 0.05);
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: var(--system-blue);
+    font-weight: 600;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.nextButton {
+    align-self: flex-end;
+}
+
+.successCard {
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.successTitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--system-label-primary);
+}
+
+.successText {
+    color: var(--system-label-secondary);
+    line-height: 1.5;
+    max-width: 400px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

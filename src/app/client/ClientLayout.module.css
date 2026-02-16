@@ -1,0 +1,116 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--system-background-tertiary);
+}
+
+.header {
+  height: 64px;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--system-separator);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logoIcon {
+  width: 36px;
+  height: 36px;
+  background: linear-gradient(135deg, var(--system-blue), #5AC8FA);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoText {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--system-label-primary);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navLink {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--system-label-secondary);
+  transition: color 0.2s;
+}
+
+.navLink:hover {
+  color: var(--system-label-primary);
+}
+
+.navButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--system-blue);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.navButton:hover {
+  background-color: var(--system-blue-hover);
+}
+
+.profileButton,
+.logoutButton {
+  background: none;
+  border: none;
+  color: var(--system-label-secondary);
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.profileButton:hover,
+.logoutButton:hover {
+  background-color: var(--system-gray-6);
+  color: var(--system-label-primary);
+}
+
+.main {
+  flex: 1;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.footer {
+  padding: 24px;
+  border-top: 1px solid var(--system-separator);
+  background-color: var(--system-background);
+  color: var(--system-label-secondary);
+  font-size: 13px;
+  text-align: center;
+}

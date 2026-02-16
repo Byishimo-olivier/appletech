@@ -1,0 +1,40 @@
+{
+  "common": {
+    "dashboard": "Dashboard",
+    "customers": "Customers",
+    "repairs": "Repairs",
+    "intake": "Device Intake",
+    "requests": "Repair Requests",
+    "inventory": "Inventory",
+    "quotations": "Quotations",
+    "settings": "Settings",
+    "search": "Search...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "logout": "Sign Out"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Good Morning, Admin",
+    "overview": "Here is what's happening today.",
+    "totalRepairs": "Total Repairs",
+    "activeCustomers": "Active Customers",
+    "pendingRequests": "Pending Requests",
+    "pending_repairs": "Pending Repairs",
+    "active_repairs": "Active Repairs",
+    "completed_today": "Completed Today",
+    "new_customers": "New Customers",
+    "recentActivity": "Recent Activity",
+    "recent_activity": "Recent Activity"
+  },
+  "customers": {
+    "title": "Customer Management",
+    "add_new": "Add Customer",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "devices": "Devices"
+  }
+}

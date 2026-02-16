@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--system-label-primary);
+}
+
+.subtitle {
+    font-size: 15px;
+    color: var(--system-label-secondary);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 24px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid var(--system-separator);
+    padding-bottom: 12px;
+    margin-bottom: 8px;
+}
+
+.cardHeader h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.icon {
+    color: var(--system-blue);
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.toggles {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.infoText {
+    font-size: 13px;
+    color: var(--system-label-secondary);
+}
+
+.dangerBtn {
+    color: var(--system-red);
+    border-color: var(--system-red);
+}
+
+.dangerBtn:hover {
+    background-color: rgba(255, 59, 48, 0.1);
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 24px;
+    border-top: 1px solid var(--system-separator);
+}

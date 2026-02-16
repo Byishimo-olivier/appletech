@@ -1,0 +1,122 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerActions {
+    display: flex;
+    gap: 12px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--system-label-primary);
+}
+
+.subtitle {
+    color: var(--system-label-secondary);
+    font-size: 15px;
+}
+
+.tabs {
+    display: flex;
+    gap: 4px;
+    border-bottom: 1px solid var(--system-separator);
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: var(--system-label-secondary);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 15px;
+}
+
+.tab:hover {
+    color: var(--system-label-primary);
+}
+
+.activeTab {
+    color: var(--system-blue);
+    border-bottom-color: var(--system-blue);
+}
+
+.tableCard {
+    padding: 0;
+    overflow: hidden;
+}
+
+.toolbar {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--system-separator);
+}
+
+.searchWrapper {
+    width: 300px;
+    position: relative;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    color: var(--system-label-secondary);
+    z-index: 10;
+}
+
+.searchInput input {
+    padding-left: 36px !important;
+}
+
+.tableWrapper {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    text-align: left;
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--system-separator);
+    background-color: var(--system-gray-6);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--system-label-secondary);
+    text-transform: uppercase;
+}
+
+.table td {
+    padding: 16px 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 15px;
+    color: var(--system-label-primary);
+}
+
+.stockCell {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.lowStock {
+    color: var(--system-orange);
+    font-weight: 600;
+}

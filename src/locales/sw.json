@@ -1,0 +1,40 @@
+{
+    "common": {
+        "dashboard": "Dashibodi",
+        "customers": "Wateja",
+        "repairs": "Matengenezo",
+        "intake": "Kupokea Kifa",
+        "requests": "Maombi ya Kurekebisha",
+        "inventory": "Mali",
+        "quotations": "Nukuu",
+        "settings": "Mipangilio",
+        "search": "Tafuta...",
+        "save": "Hifadhi",
+        "cancel": "Ghairi",
+        "delete": "Futa",
+        "edit": "Hariri",
+        "logout": "Ondoka"
+    },
+    "dashboard": {
+        "title": "Dashibodi",
+        "welcome": "Habari, Admin",
+        "overview": "Hapa ni kinachoendelea leo.",
+        "totalRepairs": "Jumla ya Matengenezo",
+        "activeCustomers": "Wateja Walio Hai",
+        "pendingRequests": "Maombi Yanaosubiri",
+        "pending_repairs": "Matengenezo Yanaosubiri",
+        "active_repairs": "Matengenezo Yanaendelea",
+        "completed_today": "Yamekamilika Leo",
+        "new_customers": "Wateja Wapya",
+        "recentActivity": "Shughuli za Hivi Karibuni",
+        "recent_activity": "Shughuli za Hivi Karibuni"
+    },
+    "customers": {
+        "title": "Usimamizi wa Wateja",
+        "add_new": "Ongeza Mteja",
+        "name": "Jina",
+        "phone": "Simu",
+        "email": "Barua pepe",
+        "devices": "Vifaa"
+    }
+}

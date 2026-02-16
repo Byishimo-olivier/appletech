@@ -1,0 +1,149 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--system-label-primary);
+}
+
+.subtitle {
+  color: var(--system-label-secondary);
+  font-size: 15px;
+}
+
+.roleSwitcher {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.roleLabel {
+  font-size: 14px;
+  color: var(--system-label-secondary);
+}
+
+.roleSelect {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--system-separator);
+  background-color: var(--system-background);
+  color: var(--system-label-primary);
+  font-size: 14px;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.statCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.statIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.statTitle {
+  font-size: 13px;
+  color: var(--system-label-secondary);
+  font-weight: 500;
+}
+
+.statValue {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--system-label-primary);
+}
+
+.sectionsGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+@media (max-width: 900px) {
+  .sectionsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--system-label-primary);
+  margin-bottom: 20px;
+}
+
+.placeholderChart {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--system-background-tertiary);
+  border-radius: 12px;
+  border: 2px dashed var(--system-separator);
+  color: var(--system-label-tertiary);
+  gap: 12px;
+}
+
+.chartIcon {
+  opacity: 0.5;
+}
+
+.activityList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.activityItem {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--system-separator);
+}
+
+.activityItem:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.activityTime {
+  font-size: 12px;
+  color: var(--system-label-tertiary);
+}
+
+.activityItem p {
+  font-size: 14px;
+  color: var(--system-label-primary);
+  line-height: 1.4;
+}

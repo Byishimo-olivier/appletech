@@ -1,0 +1,136 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.header {
+    margin-bottom: 8px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--system-label-primary);
+}
+
+.subtitle {
+    color: var(--system-label-secondary);
+    font-size: 15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+}
+
+.requestCard {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: transform 0.2s;
+}
+
+.requestCard:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.deviceIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--system-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.time {
+    font-size: 12px;
+    color: var(--system-label-secondary);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.statusBadge {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: var(--system-orange);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.deviceName {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--system-label-primary);
+}
+
+.customerName {
+    font-size: 14px;
+    color: var(--system-label-secondary);
+}
+
+.issueBox {
+    background-color: var(--system-gray-6);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.issue {
+    font-size: 13px;
+    color: var(--system-label-primary);
+    line-height: 1.4;
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.approveBtn {
+    flex: 1;
+    background-color: var(--system-green);
+}
+
+.rejectBtn {
+    flex: 1;
+    color: var(--system-red);
+}
+
+.chatBtn {
+    width: 100%;
+}
+
+.emptyState {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 40px;
+    color: var(--system-label-secondary);
+}

@@ -1,0 +1,153 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--system-label-primary);
+}
+
+.backLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--system-label-secondary);
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.backLink:hover {
+    color: var(--system-blue);
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.infoCard {
+    padding-bottom: 32px;
+}
+
+.cardTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--system-label-primary);
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--system-separator);
+}
+
+.formGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+.itemsCard {
+    overflow: hidden;
+}
+
+.itemTable {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+.itemTable th {
+    text-align: left;
+    font-size: 13px;
+    color: var(--system-label-secondary);
+    font-weight: 500;
+    padding: 0 8px;
+}
+
+.itemTable td {
+    padding: 0 8px;
+    vertical-align: top;
+}
+
+.tableInput input {
+    height: 40px;
+}
+
+.rowTotal {
+    padding-top: 10px !important;
+    font-weight: 600;
+    color: var(--system-label-primary);
+}
+
+.deleteButton {
+    background: none;
+    border: none;
+    color: var(--system-red);
+    cursor: pointer;
+    padding: 8px;
+    margin-top: 2px;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+}
+
+.deleteButton:hover:not(:disabled) {
+    opacity: 1;
+}
+
+.deleteButton:disabled {
+    opacity: 0.2;
+    cursor: not-allowed;
+}
+
+.tableFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid var(--system-separator);
+}
+
+.totalSection {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 300px;
+}
+
+.totalRow {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: var(--system-label-secondary);
+}
+
+.grandTotal {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--system-label-primary);
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 2px solid var(--system-separator);
+}

@@ -1,0 +1,40 @@
+{
+    "common": {
+        "dashboard": "Incamake",
+        "customers": "Abakiriya",
+        "repairs": "Ibyuma biri gukorwa",
+        "intake": "Kwakira Ibyuma",
+        "requests": "Ubusabe bw'Isana",
+        "inventory": "Ububiko",
+        "quotations": "Ibiciro",
+        "settings": "Igenamiterere",
+        "search": "Shakisha...",
+        "save": "Bika",
+        "cancel": "Kureka",
+        "delete": "Siba",
+        "edit": "Hindura",
+        "logout": "Sohoka"
+    },
+    "dashboard": {
+        "title": "Incamake",
+        "welcome": "Mwaramutse, Muyobozi",
+        "overview": "Dore uko bihagaze uyu munsi.",
+        "totalRepairs": "Ibyuma byose",
+        "activeCustomers": "Abakiriya Bakora",
+        "pendingRequests": "Ubusabe Butararebwa",
+        "pending_repairs": "Ibitarara",
+        "active_repairs": "Ibiri gukorwa",
+        "completed_today": "Ibyarangiye uyu munsi",
+        "new_customers": "Abakiriya bashya",
+        "recentActivity": "Ibikorwa bya vuba",
+        "recent_activity": "Ibikorwa bya vuba"
+    },
+    "customers": {
+        "title": "Gucunga Abakiriya",
+        "add_new": "Ongeramo Umukiriya",
+        "name": "Izina",
+        "phone": "Telefone",
+        "email": "Imeri",
+        "devices": "Ibyuma"
+    }
+}

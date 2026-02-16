@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--system-label-primary);
+}
+
+.subtitle {
+    color: var(--system-label-secondary);
+    font-size: 15px;
+}
+
+.tableCard {
+    padding: 0;
+    overflow: hidden;
+}
+
+.toolbar {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--system-separator);
+}
+
+.searchWrapper {
+    width: 300px;
+    position: relative;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    color: var(--system-label-secondary);
+    z-index: 10;
+}
+
+.searchInput input {
+    padding-left: 36px !important;
+}
+
+.tableWrapper {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    text-align: left;
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--system-separator);
+    background-color: var(--system-gray-6);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--system-label-secondary);
+    text-transform: uppercase;
+}
+
+.table td {
+    padding: 16px 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 15px;
+    color: var(--system-label-primary);
+}
+
+.deviceCell {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+}
+
+.statusBadge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 12px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.statusIcon {
+    stroke-width: 3px;
+}
